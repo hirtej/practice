@@ -9,5 +9,13 @@
     },
     "extends": ["eslint:recommended", "plugin:react/recommended"],
     "plugins": ["react"],
-    "rules": { "no-console": "off" }
-}
+    "rules" : {
+      "no-console" : "off",
+      "semi": ["error", "always"],
+      "semi-spacing": ["error", {"after": true, "before": false}],
+      "semi-style": ["error", "last"],
+      "no-extra-semi": "error",
+      "no-unexpected-multiline": "error",
+      "no-unreachable": "error"
+    }
+  }
