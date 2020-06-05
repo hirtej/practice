@@ -30,6 +30,6 @@ const MoneyBook = () => {
       </table>
     </div>
   );
-}
+};
 
 ReactDOM.render(<MoneyBook />, document.getElementById('root'));
