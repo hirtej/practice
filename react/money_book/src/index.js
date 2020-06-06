@@ -38,6 +38,6 @@ const MoneyBookItem = (props) => {
   return (<tr><td>{date}</td><td>{item}</td><td>{amount >= 0 ? amount : null}</td><td>{amount >= 0 ? null : amount}</td></tr>);
 };
 
-MoneyBookItem.PropTypes = { book: PropTypes.object.isRequired };
+MoneyBookItem.propTypes = { book: PropTypes.object.isRequired };
 
 ReactDOM.render(<MoneyBook />, document.getElementById('root'));
